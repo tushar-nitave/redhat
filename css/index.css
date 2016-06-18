@@ -1,0 +1,102 @@
+body{
+	background-image: url("../images/index-img2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+/*Navigaiton Bar*/
+nav{
+	width: 100% !important;
+	text-align: center;
+	background:linear-gradient(to bottom,#fff, #f8f8f8);
+	border-color: #f2f2f2;
+ 	box-shadow: 0px 1px 2px 0.3555px #999;
+ 	position: fixed;
+ 	margin:-0.4% 0% 0% 0%;
+}
+
+nav  a {
+	display:inline-block;
+	padding: 0.8% 2.5% 0.9% 3%;
+	font-family: sans-serif;
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 1%;
+	-webkit-transition:0.5s;
+}
+
+nav a:nth-child(1){
+	font-size: 24px;
+	position: relative;
+	color: #548c8c;
+	padding-bottom: -3px;
+	margin-top: 0.8%;
+	font-family: sans-serif;
+	margin-right: -7%;
+	float: left;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #548c8c;
+	-webkit-transition:0.5s;
+}
+
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+  	margin-right: auto;
+  	margin-left: auto;	
+}
+
+/* title */
+.container-fluid .title{
+	font-size: 3.3vw;
+	text-align: center;
+	margin-top: 18%;
+	color: #fff;
+	position: relative;
+	font-weight: lighter;
+	font-family: Myriad Pro;
+}
+
+/*About*/
+.container-fluid .jumbotron{
+	margin-top: 10%;
+	background-color: white;
+	padding-top: 10%;
+	border-radius: 0px;
+}
+
+.container-fluid .jumbotron p{
+	text-align: center;
+	font-family: calibri;
+	font-size: 1.8vw;
+	color: #000;	
+}
+
+ .container .head{
+	color: #fff;
+	font-family: Myriad Pro, Calibri, Arial;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 8%;
+}
+
+.container .content{
+	color: #000;
+	font-family: Myriad Pro, Calibri, Arial;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: left;
+	padding-right: 0%;
+}
+
+.container span p:nth-child(1) {
+	color: red;
+}
