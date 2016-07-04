@@ -67,7 +67,7 @@ nav a:hover{
 .container-fluid .title{
 	font-size: 3.3vw;
 	text-align: center;
-	margin-top: 18%;
+	margin-top: 15%;
 	color: #fff;
 	position: relative;
 	font-weight: lighter;
@@ -103,7 +103,7 @@ nav a:hover{
 
 .container-fluid .jumbotron .about-course p{
 	margin-top:0%;
-	font-size: 18px;
+	font-size: 1.8vw;
 }
  
 /*Footer*/
@@ -111,7 +111,23 @@ footer .jumbotron{
 	background-color: #e3e3e3;
 }
 footer .footer{
-	text-align: center;
-	font-size: 30px;
+	font-size: 14px;
 	color: #333;
+	margin-top: -1%;
+	padding: -30% 0% -100% 0%; 
+}
+
+footer .bottom{
+	color: #333;
+	font-size: 14px;
+	font-family: calibri;
+	text-align: left;
+}
+
+footer .bottom span{
+	color: #333;
+	font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	text-align: left;
 }
