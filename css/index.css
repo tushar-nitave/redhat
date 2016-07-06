@@ -29,6 +29,7 @@ nav  a {
 	display:inline-block;
 	padding: 0.8% 2.5% 0.9% 3%;
 	font-family: sans-serif;
+	font-weight: lighter;
 	color: #000;
 	font-size: 18px;
 	text-decoration: none;
