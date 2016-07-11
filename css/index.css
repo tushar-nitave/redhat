@@ -71,26 +71,29 @@ nav a:hover{
 .container-fluid .title{
 	font-size: 3.3vw;
 	text-align: center;
-	margin-top: 15%;
 	color: #fff;
 	position: relative;
 	font-weight: lighter;
 	font-family: Myriad Pro,sans-serif;
+	padding: 6% 0% 6% 0%;
 }
 
 /*About*/
-.container-fluid .jumbotron{
-	margin-top: 10%;
-	background-color: #f2f2f2;
-	padding-top: 10%;
+.jumbotron{
+	background-color: #e3e3e3;
 	border-radius: 0px;
+	margin-bottom: 0px;
+	height: 230px;
 }
 
+.jumbotron p{
+	padding: 3% 2% 3% 2%;
+}
 .container-fluid .jumbotron .container .info p{
 	text-align: center;
 	font-family: Myriad Pro, sans-serif;
-	font-size: 1.8vw;
-	margin-top: -5%;
+	font-size: 20px;
+	margin-top: -1.5%;
 	padding:3% 0% 3% 0%;
 	color: #000;	
 }
@@ -100,35 +103,30 @@ nav a:hover{
 .container-fluid .jumbotron .about-course h2, p{			
 	text-align: center;
 	color: #f2f2f2;
-	margin-top:-8.8%;
-	font-family: calibri;
+	margin-top: -2.6%;
+	font-family: sans-serif;
 	font-weight: lighter;
 }
 
 .container-fluid .jumbotron .about-course p{
-	margin-top:0%;
-	font-size: 1.8vw;
+	font-size: 20px;
+	font-weight: lighter;
 }
  
 /*Footer*/
-footer .jumbotron{
-	background-color: #e3e3e3;
-}
-footer .footer{
+  .footer p{
 	font-size: 14px;
 	color: #333;
-	margin-top: -1%;
-	padding: -30% 0% -100% 0%; 
+	padding: 0% 0% 0% 0%;
 }
 
-footer .bottom{
+ .bottom{
 	color: #333;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: calibri;
 	text-align: left;
 }
-
-footer .bottom span{
+ .bottom span{
 	color: #333;
 	font-size: 14px;
 	font-family: calibri;
