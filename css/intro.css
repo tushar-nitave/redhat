@@ -1,0 +1,95 @@
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+  	margin-right: auto;
+  	margin-left: auto;	
+}
+nav{
+	width: 100% !important;
+	text-align: right;
+	background:linear-gradient(to bottom,#fff, #fff);
+	border-color: #f2f2f2;
+ 	box-shadow: 0px 1px 2px 0.3555px #eee;
+ 	position: fixed;
+ 	margin:-0.4% 0% 0% 0%;
+ 	z-index: 4;
+
+}
+
+nav  a {
+	display:inline-block;
+	padding: 0.8% 2% 0.8% 2%;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	margin-top: 1%;
+	line-height: 25px;
+	-webkit-transition:0.5s;
+}
+
+nav a:nth-child(2),nav a:nth-child(3),nav a:nth-child(4){
+	color: #08c;
+}
+
+nav a:hover{
+	color: #333;
+	text-decoration: none;
+	-webkit-transition:0.5s;
+}
+
+nav a:nth-child(1){
+	font-size: 24px;
+	position: relative;
+	color: #333;
+	padding-bottom: -3px;
+	margin-top: 0.8%;
+	font-family: sans-serif; 
+	float: left;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.container header{
+	background:linear-gradient(to bottom,#fff, #fff);
+	position: fixed;
+}
+
+.about h1, .prerequisite h1, .syllabus h1 {
+	font-size: 24px;
+}
+
+.jumbotron p{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.jumbotron {
+	box-shadow:  0px 0px 10px #999; 
+}
+
+.container .enroll-btn {
+		width: 135px;
+		height: 50px;
+		background-color: #08c;
+		border-radius: 4px;
+		position: absolute;
+		margin-left: 50%;
+		transform: translate(-155px);
+}
+
+.enroll-btn a>p{
+	font-size: 17px;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: lighter;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.enroll-btn a:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
