@@ -9,10 +9,11 @@ nav{
 	text-align: right;
 	background:linear-gradient(to bottom,#fff, #fff);
 	border-color: #f2f2f2;
- 	box-shadow: 0px 1px 2px 0.3555px #f2f2f2;
+ 	box-shadow: 0px 1px 2px 0.3555px #eee;
  	position: fixed;
  	margin:-0.4% 0% 0% 0%;
  	z-index: 4;
+
 }
 
 nav  a {
@@ -59,7 +60,9 @@ nav a:nth-child(1){
 	text-align: center;
 	 -webkit-filter: drop-shadow(1px 3px 3px #666);
 }
-
+.jumbotron{
+	background-color: #f2f2f2;
+}
 .jumbotron .container header2 p{
 	font-family: sans-serif;
 	text-align: center;
@@ -104,4 +107,52 @@ content .list a:hover{
 	text-decoration: none;
 	color: #333;
 	font-weight: normal;
+}
+
+footer{
+   	 -webkit-animation: mymove 0.5s infinite;  /* Chrome, Safari, Opera */
+    	animation: mymove 0.5s infinite;
+    	 -webkit-animation-fill-mode:forwards; 
+    	text-align: center;
+}
+footer a {
+	font-family:sans;
+	font-weight: lighter;
+	font-size: 24px;
+	color: #333;
+	text-decoration: none;
+	color: #333;
+	float: center;
+	text-decoration: none;
+}
+
+
+footer:hover{
+	position: relative;
+}
+footer a:hover{
+	text-decoration: none;
+}
+
+footer .letsgo:hover {
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	text-decoration:  none;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 4px;}
+}
+
+@-keyframes mymove {
+    from {left: 0px;}
+    to {left: 4px;}
+}
+
+
+footer a img{
+	height: 21px;
+	width: 21px;
+	margin-top: -3.8px;
 }
