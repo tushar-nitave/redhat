@@ -1,0 +1,10 @@
+.vm, .dual-boot{
+	font-weight: lighter;
+	font-family: 'Quicksand',sans-serif;
+	color: #333
+
+}
+
+.vm h1, .dual-boot h1{
+	font-size: 30px;
+}

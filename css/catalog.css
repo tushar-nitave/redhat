@@ -1,0 +1,61 @@
+.chapters #lesson {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.chapters #lesson a{
+	font-weight: lighter;
+	text-decoration: none;
+
+}
+
+.chapters #lesson a:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+.jumbotron h4{
+	margin: 0;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #000
+}
+
+.jumbotron {
+	
+	padding: 0;
+	background-color: #fff;
+	box-shadow:  7px 8px 16px #a3a3a3;
+	padding-bottom: 40px;
+	padding-top: 20px;
+
+
+}
+
+.jumbotron h3{
+	font-weight: lighter;
+	font-family: 'Quicksand',sans-serif;
+	color: #333
+}
+
+.jumbotron p{
+	color: #666
+}
+
+.jumbotron:hover{
+	cursor: pointer;
+}
+
+.chapters a:hover{
+	text-decoration: none;
+}
+
+.chapters {
+	padding-top: 30px;
+}
+
+body {
+	   background: linear-gradient(to bottom, #ffffff 30%, #ddd 100%);
+}
