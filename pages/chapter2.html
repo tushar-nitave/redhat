@@ -7,6 +7,7 @@
 	<link type="text/css" rel="stylesheet" href="../css/intro.css">
 	<link type="text/css" rel="stylesheet" href="../css/chapter.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -35,9 +36,24 @@
 
 				<p>In order to check whether vim is installed on your machine or not type the following command in your terminal.</p>
 				<br>
-				<p class="commands jumbotron">$ vim --version</p>	
+				<p class="commands jumbotron">$ vim </p>	
+				<br>
+				<p>If it is already installed on your machine you can see the version number. In case if it is not installed you will see an something like this <span style="font-family: 'Source Code Pro'">vim: command not found</span>. In order to install vim type following command and hit enter.</p>
 				
-			</div>
+				<br>
+				<p class="commands jumbotron">$ sudo dnf install vim</p>
+				<b>Note:</b> If you are using RHEL(Red Hat Enterprise Linux) replace the above command with sudo yum install vim.
+				
+				<br><br>
+				<p>After successfully installing vim on your machine now is the time to explore it. Vim is a really powerfull editor. Once you get to know all the shortcuts/commands it will be really fast and easy to use it. Now, type the following command(without quotes) to open an existing file or create a new file.</p>
+				
+				<br>
+				<p class="commands jumbotron">$ vim "filename"</p>
+				<br>
+
+				<p>You will see a complete black screen if it's a new file otherwise you will be able to see the contents. Vim editor consists of different modes namely <b>normal mode, insert mode, command mode and replace mode</b>. To find out more visit <a href="https://guide.freecodecamp.org/vim/modes/" target="0">Vim Mode</a>.</p>
+
+			</div> 
 			 
 
 			 
