@@ -51,7 +51,36 @@
 				<p class="commands jumbotron">$ vim "filename"</p>
 				<br>
 
-				<p>You will see a complete black screen if it's a new file otherwise you will be able to see the contents. Vim editor consists of different modes namely <b>normal mode, insert mode, command mode and replace mode</b>. To find out more visit <a href="https://guide.freecodecamp.org/vim/modes/" target="0">Vim Mode</a>.</p>
+				<p>You will see a complete black screen if it's a new file otherwise you will be able to see the contents. Vim editor consists of different modes namely <b>normal mode, insert mode, command mode and replace mode</b>. To find out more visit <a href="https://guide.freecodecamp.org/vim/modes/" target="0">Vim Modes</a>.</p>
+				<p>When you open any file with vim command, initially it is in normal mode. In this mode you cannot make any changes. In order to do so you need to enter into insert mode by pressing <b>i</b>. In this mode you can edit the file just like any other editor.</p>
+				<br>
+				<h1>Basic file operations in vim</h1>
+	  			<p>Performing file related operations such as copy, paste, search, delete are little bit different in vim as compared to editors like gedit. In order to perform these operations you should enter into the command mode from insert mode by pressing <b>Esc</b>. We will first see how to cut, copy and paste contents in a file using vim editor.</p>
+	  			<ul>
+	  				<li><p><b>Copy and Paste a line:</b> Move the cursor at the beginning of the line which you want to copy and press <b>yy</b> in the command mode and then press <b>p</b> to paste the line which you have copied.</p></li>
+	  				<li><p><b>Copy and Paste multiple lines:</b> Move the cursor at the beginning of the first line from which you want to copy and press <b>yy+(no. of lines). For eg: yy+10</b> here 10 is the number of lines which you want to copy.</p></li>
+	  				<li><p><b>Copy and Paste a paragraph:</b> Move the cursor at the beginning of the paragraph and press <b>'y+Shift+{'</b> and press <b>'y+Shift+}'</b>.</p></li>
+	  				<li><p><b>Cut and Paste a line/paragraph:</b> Move the cursor at the beginning of the line which you want to cut and press <b>cc</b> in the command mode and then press <b>p</b> to paste the line.</p></li>
+	  				<li><p><b>Delete a line/paragraph:</b> Move the cursor at the beginning of the line which you want to delete and press <b>dd</b>.</p></li>
+	  				<li><p><b>Delete multiple lines:</b> Move the cursor at the beginning of the first line from which you want to delete and press <b>Shift+v</b> and move towards the end of the line upto which you want to delete and press <b>d</b>.</p></li>
+	  				<li><p><b>Undo:</b> Press <b>u</b> to undo any operation.</p></li>
+	  			</ul>
+	  			<h2>Other operations in vim</h2>
+	  			<p>In order to execute the below operations you need to enter into the command mode. Now if you are in insert mode press <b>Esc</b> and then press <b>colon(:)</b> otherwise simple press <b>colon(:)</b>.</p>
+	  			<ul>
+	  				<li><p><b>Search:</b> To search a particular word in the file type <b>'/keyword'</b> and press <b>n</b> to find next apperance of that keyword.</p></li>
+	  				<li><p><b>Show the line number:</b> To visible the line numbers in file type <b>'se nu'</b>. Similarly in order to remove the line number type <b>'se nonu'</b>.</p></li>
+	  				<li><p><b></b></p></li>
+
+	  			</ul>
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
+	  			
 
 			</div> 
 			 
