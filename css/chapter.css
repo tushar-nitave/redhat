@@ -1,15 +1,15 @@
-.vm, .dual-boot, .vim{
+.vm, .dual-boot, .vim, .basic-commands{
 	font-weight: lighter;
 	font-family: 'Quicksand',sans-serif;
 	color: #333;
 
 }
 
-.vm h1, .dual-boot h1, .vim h1{
+.vm h1, .dual-boot h1, .vim h1, .basic-commands h1{
 	font-size: 30px;
 }
 
-.vm p, .vim p{
+.vm p, .vim p, .basic-commands p{
 	font-family: sans-serif;
 	font-weight: normal;
 	color: #000;
@@ -17,12 +17,19 @@
 	text-align: justify;
 }
 
-.vm img {
+.vm img{
 	width: 100%;
 	height: auto;
 }
 
-.vim .commands{
+.basic-commands img{
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 7px 8px 16px #a3a3a3;
+}
+
+.vim .commands, .basic-commands .commands{
 	font-size: 18px;
 	color:#fff;
 	padding: 30px 0px 25px 15px;
@@ -30,7 +37,7 @@
 	font-weight: 500;
 }
 
-.vim .jumbotron{
+.vim .jumbotron, .basic-commands .jumbotron{
 	background: rgba(0,0,0,0.91);
 	border-radius: 6px;
 }
