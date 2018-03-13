@@ -18,6 +18,11 @@
     	li{
     		font-size: 16px;
     		font-weight: bold;
+    		
+    	}
+
+    	.basic-commands b{
+    		font-size: 20px;
     	}
     </style>
 </head>
@@ -39,7 +44,7 @@
 
 				<h1>Basic Linux Commands</h1>
 				<br>
-				<ol>
+				<ul>
 					<li><p><b> pwd:</b> It stands for <i>Present working directory</i>. Whenever you open a terminal and want to find out the directory in which you currently working, just type this command and it will give you the absolute path i.e. starting from the root. In linux (/) is the main partition. Remember tidal(~) indicates that you are in home directory.</p></li>
 
 					<br>
@@ -48,12 +53,99 @@
 
 					<br>
 
-					<li><p> <b> ls: </b>This is a <i>list</i> commands shows all the contents of the current directory. If you want to see hidden files type <b>ls -a</b></p></li>
+					<li><p><b> ls: </b>This is a <i>list</i> commands shows all the contents of the current directory. If you want to see hidden files type <b>ls -a</b></p></li>
+
+					<br>
 
 					<img src="../images/chapter3/list.png">
 
+					<br><br><br>
+
+
+					<li><p><b>cd:</b> This stands for <i>change directory</i>. You can navigate between your directories using this command. By typing <i>cd</i> command without specifying any directory name, one can go directly to user's home directory.</p></li>
+
 					<br>
-				</ol>
+
+					<img src="../images/chapter3/cd.png">
+
+					<br><br><br>
+
+					<li><p><b>su:</b> This stands for <i>switch user</i>. Using this you can shift between various users residing on a system. Simply typing <b>su</b> will switch to root(super user). Root has the highest previleges in linux.</p></li>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ su student</p>
+
+					<br>
+
+					<li><p><b>touch:</b> This command is used for creating new files. Even if you don't give extension it doesn't matter. </p></li>
+
+					<br>
+					
+					<p class="commands jumbotron">user@Desktop:~$ touch file.txt</p>
+
+					<br>
+
+					<p>Similarly if you can create multiple number of files at a time below command. It creates 10 files. After running this command you can see them by executing <b>ls</b> command.</p>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ touch file{1..10}.txt</p>
+
+					<br>
+
+					<li><p><b>mkdir:</b> This command is used to create directories(folders). The below command will create a directory named <b>sample</b> in the present working directory. In order to create a directory to a specific location you can mention relative path or absolute path. To know about these paths <a href="http://vedslinux.blogspot.com/2013/10/absolute-path-vs-relative-path-in-linux.html" target="0">visit</a>.</p></li>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ mkdir sample</p>
+
+					<br>
+
+					<p>In order to create a directory inside a directory execute the following command.</p>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ mkdir -p parent_directory/child_directory</p>
+
+					<li><p><b>cat:</b> This command is used to view the contents of the file. Apart from this there are various other function of this command.</p></li>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ cat filename</p>
+
+					<br>
+
+					<p>This command is used for writing to a existing file. If you replace <b> > </b> with <b> >> </b> it can used for appending to existing file.</p>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ cat > filename</p>
+
+					<br>
+
+					<p>The following cat command can be used for copying contents of one file to another file.</p>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ cat file1 > file2</p>
+
+					<br>
+
+					<li><p><b>cp:</b> This command is used to copy any file or directory. You can give absolute as well as relative paths. This <b>cp</b> command can be used along with parameters such as <b>r</b>(recursive), <b>f</b>(forcefully), <b>v</b>(verbose). These parameters are optional.</p></li>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ cp -rvf source destination</p>
+
+					<br>
+
+					<li><p><b>mv:</b> This command is used to move any file or directory. Similarly like <b>cp</b> command this command can be used along with parameters with parameters such as <b>r</b>(recursive), <b>f</b>(forcefully), <b>v</b>(verbose). These parameters are optional. </p></li>
+
+					<br>
+
+					<p class="commands jumbotron">user@Desktop:~$ mv -rvf source destination</p>
+				</ul>
 
 			</div>
 
